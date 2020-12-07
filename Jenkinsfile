@@ -12,17 +12,7 @@ pipeline {
 
     agent any 
 
-    stages { 
-
-        stage('Cloning our Git') { 
-
-            steps { 
-
-                git 'https://github.com/Manikanta9797/dockjenkins.git' 
-
-            }
-
-        } 
+    stages {
 
         stage('Building our image') { 
 
